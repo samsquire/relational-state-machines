@@ -10,7 +10,7 @@ thread_free(next_free_thread) = fork(A, B)
                                | { yield(B, returnvalue) | paused(B, 2) }
                                  { await(A, B, returnvalue) | paused(A, 1) }
                                | send_returnvalue(B, A, returnvalue)   
-                               """
+"""
 
 class State:
   def __init__(self, state):
