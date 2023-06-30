@@ -1,6 +1,10 @@
 # relational state machines
 
-This is the beginnings of a parser to parse a state formulation described in [ideas4, 558. State machine formulation](https://github.com/samsquire/ideas4#558-state-machine-formulation).
+This idea was the idea that we can think of state machines as **relations** like a table in a database.
+
+They can collectively become **true** or **false**.
+
+This is also the beginnings of a parser to parse a state formulation described in [ideas4, 558. State machine formulation](https://github.com/samsquire/ideas4#558-state-machine-formulation).
 
 The state machine formulation looks like this:
 
